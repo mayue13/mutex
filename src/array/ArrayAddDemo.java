@@ -35,7 +35,7 @@ public class ArrayAddDemo {
 
         System.out.print("Enter Array Element:");
         int[] b=new int[size];
-        for (int i=0;i<size;i++){
+        for  (int i=0;i<size;i++){
             b[i]=sc.nextInt();
         }
 

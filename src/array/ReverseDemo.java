@@ -18,7 +18,7 @@ class Reverse{
 }
 
 public class ReverseDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         Reverse obj= new Reverse();
         Scanner sc= new Scanner(System.in);
@@ -28,19 +28,18 @@ public class ReverseDemo {
         for (int i=0;i<nums.length;i++) {
             nums[i] = sc.nextInt();
         }
+        new String();
 
         System.out.print("Original Array :");
         for(int element:nums){
             System.out.print(element + " ");
         }
-
         nums=obj.reverseArray(nums);
 
         System.out.print("\n Reverse Array :");
         for(int element:nums){
             System.out.print(element + " ");
         }
-
 
     }
 
